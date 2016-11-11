@@ -155,7 +155,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url("landscape/DSC_0600.JPG") no-repeat center center scroll;
+    background: url(JeniferHolden_portfolio-site/landscape/DSC_0600.JPG) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
