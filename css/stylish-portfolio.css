@@ -10,6 +10,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background-image: url(https://jholden131.github.io/JeniferHolden_portfolio-site/landscape.html);
 }
 
 body {
@@ -155,8 +156,13 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     background: url(../landscape/DSC_0600.JPG) no-repeat center center scroll;/*changed the url to ../landscape/DSC_600*/
+=======
+    background: url(../landscape/DSC_0600.JPG) no-repeat center center scroll;
+>>>>>>> origin/master
     -webkit-background-size: cover;
+    background: url(
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
