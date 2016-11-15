@@ -3115,7 +3115,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #ffff;
   border-color: #2e6da4;
 }
 .btn-primary:focus,
@@ -3163,11 +3163,11 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #337ab7;
+  background-color: #ffff;
   border-color: #2e6da4;
 }
 .btn-primary .badge {
-  color: #337ab7;
+  color: #ffff;
   background-color: #fff;
 }
 .btn-success {
@@ -3400,7 +3400,7 @@ fieldset[disabled] .btn-danger.focus {
 }
 .btn-link {
   font-weight: normal;
-  color: #337ab7;
+  color: #ffff;
   border-radius: 0;
 }
 .btn-link,
@@ -3569,7 +3569,7 @@ tbody.collapse.in {
 .dropdown-menu > .active > a:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #337ab7;
+  background-color: #ffff;
   outline: 0;
 }
 .dropdown-menu > .disabled > a,
@@ -6755,3 +6755,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+/*# custom code*/
+a#menu-toggle {
+  color: white;
+}
+a:hover#menu-toggle {
+  color: black;
+}
