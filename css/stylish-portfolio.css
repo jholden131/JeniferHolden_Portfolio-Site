@@ -221,3 +221,10 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+/*# custom code*/
+a#menu-toggle {
+  color: white;
+}
+a:hover#menu-toggle {
+  color: black;
+}
