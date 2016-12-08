@@ -7,7 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JLH-GALLERY</title>
+    <title>JHS-GALLERY</title>
+    
+    <link href= "thumbnail_gallery/css/bootstrap.min.css" rel="stylesheet">
+    <link href= "thumbnail_gallery/css/thumbnail-gallery.css" rel="stylesheet">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,16 +31,13 @@
 </head>
     <body>
 <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+      <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
                 <a href="index.html" onclick=$("#menu-close").click();>JLH</a>
             </li>
-           <!-- <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>-->
             <li>
                 <a href="about.html" onclick=$("#menu-close").click();>About</a>
             </li>
@@ -47,61 +47,82 @@
             <li>
                 <a href="store.html" onclick=$("#menu-close").click();>Store</a>
             </li>
-          <!--  <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-            </li>-->
         </ul>
     </nav>
-        <table width=100% height=100% padding= 10px >
-            <tr>
-            <td align="center" valign="center">
+      <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a href="rugby_im_ok.html">
-                <img src="img/i'm ok main page image.jpg" width="75%" alt="">
-            </a>
-                <br />"I'm OK" Series
-                <br />(2013-Present)
-                </td>
-            <td align="center" valign="center">
+                    <img class="img-responsive" src="img/i'm ok main page image.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a href="rugby_gallery.html">
-                <img sRC="img/DSC_0554.JPG" width="50%" alt="">
+                    <img class="img-responsive" src="img/DSC_0554.JPG" alt="">
                 </a>
-                <br />"Rugby" 
-                <br />(2013-Present)
-                </td>
-            </tr>
-            <tr align="center" valign="center">
-            <td align="center" valign="center">
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a href="landscape.html">
-                <img src="img/DSC_0026.JPG" width="65%" alt="">
-            </a>
-                <br />"Landscape" Series
-                <br />(2013-Present)
-                </td>
-            <td align="center" valign="center">
+                    <img class="img-responsive" src="img/DSC_0026.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a href="animals.html">
-                <img src="img/DSC_1398.JPG" width="65%" alt="">
+                    <img class="img-responsive" src="img/DSC_1398.JPG" alt="">
                 </a>
-                <br />"Animals" 
-                <br />(2013-Present)
-                </td>
-            </tr>
-            <tr align="center" valign="center">
-            <td align="center" valign="center">
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a href="black-white.html">
-                <img src="img/DSC_0045_edited.jpg" width="65%" alt="">
-            </a>
-                <br />Black and White Film                <br />(2015)
-                </td>
-            <td align="center" valign="center">
-                <a href="portraits.html" >
-                <img src="img/DSC_0377.JPG" width="65%" alt="">
+                    <img class="img-responsive" src="img/DSC_0045_edited.jpg" alt="">
                 </a>
-                <br />Portraits
-                <br />(2013-Present)
-                </td>
-            </tr>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="portraits.html">
+                    <img class="img-responsive" src="img/DSC_0377.JPG" alt="">
+                </a>
+            </div>
+            </div>
             
-        </table>
+<!--<div>
+  <a href="rugby_im_ok.html">
+    <figure>
+      <img src="img/i'm ok main page image.jpg" alt="">
+    </figure>
+  </a>
+  <a href="rugby_gallery.html">
+    <figure>
+      <img src="img/DSC_0554.JPG" alt="">
+    </figure>
+  </a>
+  <a href="landscape.html">
+    <figure>
+      <img src="img/DSC_0026.JPG" alt="">
+    </figure>
+  </a>
+  <a href="animals.html">
+    <figure>
+      <img src="img/DSC_1398.JPG" alt="">
+    </figure>
+  </a>
+  <a href="black-white.htmlk">
+    <figure>
+      <img src="img/DSC_0045_edited.jpg" alt="">
+    </figure>
+  </a>
+  <a href=portraits.html>
+    <figure>
+      <img src="img/DSC_0377.JPG" alt="">
+    </figure>
+  </a>
+  </div>-->
+
+<!--<p class="p">Demo by George Martsoukos. <a href="http://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/" target="_blank">See article</a>.</p>-->
+       
      <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -144,5 +165,6 @@
         }
     });
         </script>
+
     </body>
 </html>

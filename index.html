@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JLH-HOME</title>
+    <title>JHS-HOME</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,11 +15,211 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
+    <!-- Custom Fonts -->   
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" type="text/css">
+    <style class="cp-pen-styles">
+        html { min-height: 100%; }
 
+body { height: 100%; }
+
+.slideshow {
+  list-style: none;
+  z-index: 1;
+}
+
+.slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation: imageAnimation 24s linear infinite 0s;
+  -moz-animation: imageAnimation 24s linear infinite 0s;
+  animation: imageAnimation 24s linear infinite 0s;
+}
+
+.slideshow li h3 {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  bottom: 150px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 2em;
+  font-family: 'roboto', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-animation: titleAnimation 24s linear 1 0s;
+  -moz-animation: titleAnimation 24s linear 1 0s;
+  animation: titleAnimation 24s linear 1 0s;
+}
+@media only screen and (min-width: 768px) {
+
+.slideshow li h3 {
+  bottom: 30px;
+  font-size: 2em;
+}
+}
+@media only screen and (min-width: 1024px) {
+
+.slideshow li h3 { font-size: 2em; }
+}
+
+.slideshow li:nth-child(1) span {
+  background-image: url("landscape/DSC_0600.JPG");
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
+ }
+
+.slideshow li:nth-child(2) span {
+  background-image: url("rugby_series/DSC_0554.JPG");
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.slideshow li:nth-child(3) span {
+  background-image: url("black-white/Randel_Alexa_2.jpg");
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  animation-delay: 12s;
+}
+.slideshow li:nth-child(4) span {
+  background-image: url("animals/DSC_1398.JPG");
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+    animation-delay: 18s;}
+    
+    
+ @-webkit-keyframes 
+imageAnimation {  0% {
+ opacity: 0;
+ -webkit-animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -webkit-animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@-moz-keyframes 
+imageAnimation {  0% {
+ opacity: 0;
+ -moz-animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -moz-animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@keyframes 
+imageAnimation {  0% {
+ opacity: 0;
+ -webkit-animation-timing-function: ease-in;
+ -moz-animation-timing-function: ease-in;
+ animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -webkit-animation-timing-function: ease-out;
+ -moz-animation-timing-function: ease-out;
+ animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@-webkit-keyframes 
+titleAnimation {  0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@-moz-keyframes 
+titleAnimation {  0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@keyframes 
+titleAnimation {  0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+.no-cssanimations .slideshow li span { opacity: 1; }
+</style>
 </head>
+    
     <body>
 
     <!-- Navigation -->
@@ -39,53 +239,35 @@
             <li>
                 <a href="store.html" onclick=$("#menu-close").click();>Store</a>
             </li>
+         <div class="container">
+            <div class="row">
+                <div class="text-vertical-center">
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Jenifer Holden 2016</p>
+                    </div>
+                 </div>
+            </div>
         </ul>
     </nav>
-    
+   
+        
+    <!-- Slideshow Background-->
+        <ul class="slideshow">
+  <li>
+    <span>Slide One</span> </li>
+  <li> <span>Slide Two</span> </li>
+  <li> <span>Slide Three</span> </li>
+  <li> <span>Slide Four</span> </li>
+</ul>
+        
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <font color="#ffffff">
-            <h1>Jenifer Holden</h1>
+            <h1>Jenifer Holden Studio</h1>
             </font>
-            <h3>Photographer</h3>
-            <br>
         </div>
     </header>
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Jenifer Holden</strong>
-                    </h4>
-                    <p>Setauket, NY 11733</p>
-                    <ul class="list-unstyled">
-                       <!-- <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>-->
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:jholden131@gmail.com">jholden131@gmail.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Jenifer Holden 2016</p>
-                </div>
-            </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -105,30 +287,7 @@
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
-   
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
+ 
   
     </script>
 

@@ -729,7 +729,7 @@
 		right: 0;
 	}
 
-		#main .toggle {
+		/*#main .toggle {
 			-webkit-tap-highlight-color: transparent;
 			position: absolute;
 			top: 0;
@@ -744,7 +744,7 @@
 			background-position: 0.5em 0.5em;
 			left: 0;
 		}
-
+*/
 		body.fullscreen #main {
 			visibility: hidden;
 			right: -22.5em;
@@ -1027,7 +1027,7 @@
 				height: 100%;
 			}
 
-			#viewer .inner .toggle {
+			/*#viewer .inner .toggle {
 				-webkit-tap-highlight-color: transparent;
 				position: absolute;
 				top: 0;
@@ -1040,7 +1040,7 @@
 				z-index: 1;
 				right: 0;
 				background-position: calc(100% - 0.75em) 0.75em;
-			}
+			}*/
 
 			#viewer .inner .nav-next,
 			#viewer .inner .nav-previous {
