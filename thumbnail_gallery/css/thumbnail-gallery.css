@@ -5,9 +5,12 @@
  */
 
 body {
-    padding-top: 40px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    /*padding-top: 40px;*/ /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-left: 15px;
 }
-
+.slideshow{
+    margin: 0px;
+}
 .thumb {
     margin-bottom: 0px;
     padding: 0 !important;
@@ -15,4 +18,10 @@ body {
 
 footer {
     margin: 0px 0;
+}
+img{
+    max-height: 100%;
+}
+#main{
+    background:#AFC4E0 !important;
 }

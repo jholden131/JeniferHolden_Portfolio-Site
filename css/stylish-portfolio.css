@@ -14,7 +14,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #86B3DD;
+    background-color: #AFC4E0;
 }
 .text-vertical-center {
     display: table-cell;
@@ -30,7 +30,9 @@ body {
     font-weight: 700;
 }
 
-
+.slideshow {
+    margin:0;
+}
 
 hr.small {
     max-width: 100px;
@@ -45,13 +47,15 @@ hr.small {
     width: 250px;
     height: 100%;
     transform: translateX(250px);
-    overflow-y: auto;
+    /*overflow-y: auto;*/
     background: #222;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    display: flex
+        flex-direction: column;    
 }
 
 .sidebar-nav {
@@ -110,6 +114,7 @@ hr.small {
 #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
+    height: 100%;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -141,3 +146,16 @@ a#menu-toggle {
 a:hover#menu-toggle {
   color: black;
 }
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+.about .img{
+    width: 75%;
+}
+
+#main{
+    
+}
+
